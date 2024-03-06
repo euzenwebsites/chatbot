@@ -12,7 +12,8 @@ const ChatHistory = () => {
 
       <div className="text-white px-10">
         <h3 className="font-light text-base uppercase mb-10">last 7 days</h3>
-        <ul className="text-base pl-4 flex flex-col  gap-10">
+        <ul className="text-xs pl-2 flex flex-col  gap-10">
+
           <li className="flex flex-row gap-2 items-center">
             <Image src={Notifictaion }/>
             <p>English tutorial for...</p>
