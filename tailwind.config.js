@@ -12,6 +12,15 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'purple': '#b56fbb',
+        'royal-purple':'#56256e',
+        'grey':'#515151',
+        'lightgrey':'#a3a3a3',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/public/images/pattern.png')",
+      }
     },
   },
   plugins: [],
