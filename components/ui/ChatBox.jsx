@@ -14,13 +14,13 @@ const ChatBox = () => {
   return (
     <section className="w-full">   
         <div >
-            <div className="flex flex-row items-between  justify-between p-8 bg-[#ffffff] h-28 ">
+            <div className="flex flex-row items-between max-sm: gap-10  justify-between p-8 bg-[#ffffff] j-h-20 sm:h-28 ">
                 
                 <div className="flex flex-row gap-4">
                     <Image src={Logo} />
                     <div>
-                        <h3 className="font-bold text-xl">MK AI</h3>
-                        <p>Generating...</p>
+                        <h3 className="font-bold text-lg sm:text-xl">MK AI</h3>
+                        <p className="text-xs sm:text-base">Generating...</p>
                     </div>
                 </div>
 
@@ -32,17 +32,17 @@ const ChatBox = () => {
                 </div>
             </div>
 
-            <div className="bg-[#f7f7f7] grid justify-items-stretch h-full p-6 rounded-xl ">
+            <div className="bg-[#f7f7f7] grid gap-8 sm:gap-4  justify-items-stretch h-full p-6 rounded-xl ">
 
-                <div className="w-[70%] justify-self-end">
+                <div className="w-[90%] sm:w-[70%] justify-self-end">
                     <p className="text-right text-lightgrey">10:30 AM</p>
-                    <div className="text-white bg-[#c15399] p-4 new-border">
+                    <div className="text-white bg-[#c15399] p-4 new-border ">
                         <p>Write code for a simple welcome page and form with 3 input fields and a dropdown with 2 buttons,
                              cancel and send, then run test with my Codepen project.</p>
                     </div>
                 </div>
 
-                <div className="w-[70%] justify-self-start">
+                <div className="w-[90%] sm:w-[70%] justify-self-start">
                     <div className="flex flex-row gap-4">
                         <p className="font-semibold ">MK AI</p>
                     <p className="text-left text-lightgrey">10:30 AM</p>
@@ -54,7 +54,7 @@ const ChatBox = () => {
                     </div>
                 </div>
 
-                <div className="w-[70%] justify-self-end">
+                <div className="w-[90%] sm:w-[70%] justify-self-end">
                     <p className="text-right text-lightgrey">10:30 AM</p>
                     <div className="text-white bg-[#c15399] p-4 new-border">
                         <p>Write code for a simple welcome page and form with 3 input fields and a dropdown with 2 buttons,
@@ -62,7 +62,7 @@ const ChatBox = () => {
                     </div>
                 </div>
 
-                <div className="w-[70%] justify-self-start">
+                <div className="w-[90%] sm:w-[70%] justify-self-start">
                     <div className="flex flex-row gap-4">
                         <p className="font-semibold ">MK AI</p>
                     <p className="text-left text-lightgrey">10:30 AM</p>

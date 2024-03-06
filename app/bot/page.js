@@ -21,7 +21,7 @@ const page = () => {
   return (
     <section className='flex flex-row w-[100%]'>
 
-        <div className='w-[8%] bg-purple   flex flex-col  justify-between pt-10 border-r-2'>
+        <div className='w-[20%] sm:w-[8%] bg-purple   flex flex-col  justify-between pt-10 border-r-2'>
 
             <div className='flex flex-col items-center'>
             <Image src={AvatarImg} width={50} />
@@ -39,15 +39,15 @@ const page = () => {
             </div>
         </div>
         {isRevealed && (
-        <div className="w-[25%]">
+        <div className="sm:w-[25%]">
             <ChatHistory/>
         </div>
         )}
 
-        <div className=''>
+        <div className='max-sm:w-[80%]'>
             <ChatBox/>
         </div>
-        <div className='w-[25%]'>
+        <div className='sm:w-[25%] max-sm:hidden'>
             <Media/>
         </div>
     </section>

@@ -8,8 +8,8 @@ const Navbar = () => {
         <div>
             <h3 className='text-[#f3cbb2] font-bold text-3xl'><Link href="/">MK</Link></h3>
         </div>
-        <div>
-            <ul className='flex flex-row  gap-10 uppercase text-lg font-light'>
+        <div >
+            <ul className='flex max-sm:hidden flex-row  gap-10 uppercase text-lg font-light'>
                 <li><Link href="/bot">resume ai chatbot</Link> </li>
                 <li>resume </li>
                 <li>portfolio</li>
