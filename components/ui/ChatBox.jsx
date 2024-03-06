@@ -14,7 +14,7 @@ const ChatBox = () => {
   return (
     <section className="w-full">   
         <div >
-            <div className="flex flex-row items-between  justify-between p-8 bg-[#ffffff] ">
+            <div className="flex flex-row items-between  justify-between p-8 bg-[#ffffff] h-28 ">
                 
                 <div className="flex flex-row gap-4">
                     <Image src={Logo} />
@@ -32,7 +32,7 @@ const ChatBox = () => {
                 </div>
             </div>
 
-            <div className="bg-[#f7f7f7] grid justify-items-stretch h-full p-6 rounded-lg ">
+            <div className="bg-[#f7f7f7] grid justify-items-stretch h-full p-6 rounded-xl ">
 
                 <div className="w-[70%] justify-self-end">
                     <p className="text-right text-lightgrey">10:30 AM</p>

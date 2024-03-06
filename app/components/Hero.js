@@ -8,6 +8,7 @@ import Linkedin from "@/public/icons/linkedin.png"
 
 import Reveal from '@/components/untlis/Reveal'
 import { RevealWrapper } from 'next-reveal'
+import Link from 'next/link'
 
 
 const Hero = () => {
@@ -17,14 +18,14 @@ const Hero = () => {
         <h3 className='text-xl font-light text-[#ecdbee]'>Software Engineer</h3>
         <h1 className='font-bold text-5xl'>MK Portfolio</h1>
         <p className='font-light w-[80%] text-xl text-center'>I have created a fun way for you to learn about developmental experience as well as interests.</p>
-        <button className='rounded-full border-x-2 hover:border-0 hover:bg-royal-purple px-10 py-4 font-bold text-lg'>Let chat with us</button>
+        <Link href="/bot" className='rounded-full border-x-2 hover:border-0 hover:bg-royal-purple px-10 py-4 font-bold text-lg'>Let chat with us</Link>
         <Image src={Mouse} alt="mouse icon" className='mt-10 animate-bounce ' height={50}/>
     </div>
 
             
        
             <Image src={Robot} width={600} height={500} alt='robot image ' className='absolute bottom-0 left-20 reveal-image'/>
-            
+
           
             
           

@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         <div>
             <ul className='flex flex-row  gap-10 uppercase text-lg font-light'>
-                <li>resume ai chatbot</li>
+                <li><Link href="/bot">resume ai chatbot</Link> </li>
                 <li>resume </li>
                 <li>portfolio</li>
                 <li>interest</li>
