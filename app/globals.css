@@ -25,7 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
-
+.new-border{
+  border-radius: 12px 2px 12px 12px;
+}
+.new-border2{
+  border-radius: 12px 12px 12px 2px;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -33,4 +38,23 @@ body {
 }
 .pattern{
   background-image: url('../public/images/pattern.png');
+}
+.reveal-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  animation: rollFromLeft 2s ease forwards;
+  opacity: 0;
+}
+
+@keyframes rollFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

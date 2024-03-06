@@ -1,10 +1,13 @@
-import React from 'react'
+
 import Image from 'next/image'
 import Robot from "@/public/images/robot.png"
 import Mouse from "@/public/images/mouse.png"
 import Facebook from "@/public/icons/facebook.svg"
 import Instagram from "@/public/icons/instagram.svg"
 import Linkedin from "@/public/icons/linkedin.png"
+
+import Reveal from '@/components/untlis/Reveal'
+import { RevealWrapper } from 'next-reveal'
 
 
 const Hero = () => {
@@ -17,9 +20,14 @@ const Hero = () => {
         <button className='rounded-full border-x-2 hover:border-0 hover:bg-royal-purple px-10 py-4 font-bold text-lg'>Let chat with us</button>
         <Image src={Mouse} alt="mouse icon" className='mt-10 animate-bounce ' height={50}/>
     </div>
-    
-        
-            <Image src={Robot} width={600} height={500} alt='robot image ' className='absolute bottom-0 left-20'/>
+
+            
+       
+            <Image src={Robot} width={600} height={500} alt='robot image ' className='absolute bottom-0 left-20 reveal-image'/>
+            
+          
+            
+          
 
             <div className=' flex flex-row gap-2  absolute bottom-16 right-24'>
                 <div className='bg-white rounded-full p-4 hover:bg-royal-purple flex justify-center items-center w-12 h-12'><Image src={Facebook} alt='facebook icon '/></div>
