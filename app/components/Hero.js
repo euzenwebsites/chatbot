@@ -13,7 +13,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-   <section className='bg-purple sm:h-[90vh] flex flex-col  justify-center items-center pattern relative overflow-hidden'>
+   <section className='bg-purple sm:h-[90vh] flex flex-col  justify-center items-center pattern relative overflow-hidden -z-10 '>
     <div className='flex flex-col gap-4 items-center text-white max-sm:mt-10'>
         <h3 className='text-xl font-light text-[#ecdbee]'>Software Engineer</h3>
         <h1 className='font-bold text-5xl'>MK Portfolio</h1>

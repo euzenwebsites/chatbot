@@ -27,7 +27,7 @@ const page = () => {
             <Image src={AvatarImg} width={50} />
             <div className='mt-20  hover:bg-[#a05faa] hover:border-r-2 w-full flex items-center justify-center gap-4 py-4 box-border'
              onClick={handleRevealClick}>
-
+                
                 <Image src={Chat} />
                 {!isRevealed && (<Image src={ArrowLeft}/>)}
                 {isRevealed && (<Image src={ArrowRight}/>)}
