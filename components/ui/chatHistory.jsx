@@ -5,9 +5,9 @@ import  Notifictaion   from '@/public/icons/notification.svg'
 const ChatHistory = () => {
   return (
     <div className="bg-purple h-full max-sm:absolute max-sm:w-full">
-      <div className="text-white flex flex-row  gap-10 p-8">
-        <h3 className="text-3xl font-bold">Message</h3>
-        <Image src={Pencil}/>
+      <div className="text-white flex flex-row items-center  gap-10 py-8 px-10">
+        <h3 className="text-2xl font-bold ">Message</h3>
+        <Image src={Pencil} />
       </div>
 
       <div className="text-white px-10">

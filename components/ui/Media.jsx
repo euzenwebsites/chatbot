@@ -14,7 +14,7 @@ const Media = () => {
                     <Image src={Folder} />
                     <p className="font-semibold">Media</p>
                 </div>
-                <Image src={Image2} className="mt-6" alt="codding image"/>
+                <Image src={Image2} className="mt-6 px-4" alt="codding image"/>
             </div>
         </div>
     </section>

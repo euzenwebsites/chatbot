@@ -58,3 +58,12 @@ body {
     opacity: 1;
   }
 }
+
+.cont {
+  
+  transition: all .7s;
+  &.hidden2 {
+    height: 0;
+    transition: all .7s;
+  }
+}
