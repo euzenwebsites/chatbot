@@ -5,7 +5,7 @@ const Media = () => {
   return (
     <section>
         <div>
-            <div className='h-28  w-full flex justify-center items-center border-b '>
+            <div className='h-28  w-full flex justify-center items-center border-b z-20'>
                 <h3 className='font-bold text-2xl '>Media</h3>
             </div>
 

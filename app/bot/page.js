@@ -56,7 +56,7 @@ const page = () => {
                 <ChatBox />
 
                 <button
-                    className="bg-[#eaeaea] transition ease-in-out delay-150 h-16 w-8 absolute right-0 top-[35%]  rounded-lg flex justify-center items-center"
+                    className="bg-[#eaeaea] max-sm:hidden  transition ease-in-out delay-150 h-16 w-8 absolute right-0 top-[35%]  rounded-lg flex justify-center items-center"
                     onClick={handleRevealMediaClick}
                 >
                     {!isMediaRevealed && <Image src={Back} width={20} />}
@@ -65,7 +65,7 @@ const page = () => {
             </div>
 
             {isMediaRevealed && (
-                <div className="sm:w-[25%] max-sm:hidden transition-all duration-500 ease-in-out ">
+                <div className="sm:w-[25%] max-sm:hidden  transition-all duration-500 ease-in-out reveal-image2 ">
                     <Media />
                 </div>
             )}
